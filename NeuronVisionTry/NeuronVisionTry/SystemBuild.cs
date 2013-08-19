@@ -15,8 +15,7 @@ namespace NeuronVisionTry
         static void Main(string[] args)
         {
             Image environmentImage =
-                    Image.FromFile(System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-                                          "visionPictures/Example.png"));
+                Image.FromFile(System.IO.Directory.GetCurrentDirectory() + "/Images/Example.png");
             GlobalLayersKnowledge.Environment = new Bitmap(environmentImage);
             GlobalLayersKnowledge.Randomer = new Random();
             GlobalLayersKnowledge.Counter = 0;
@@ -63,18 +62,12 @@ namespace NeuronVisionTry
 
                 if (j % 10 == 0 || (j < 21))
                 {
-                    string fileName = "visionPictures/neuronStuff/perception" + j.ToString() + ".png";
-                    var filePath = System.IO.Path.Combine(
-                        Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-                        fileName);
+                    var filePath = System.IO.Directory.GetCurrentDirectory() + "/Results/perception" + j.ToString() + ".png";
                     perception.Save(filePath);
-
-                    string environmentFileName = "visionPictures/neuronStuff/perception" + (j+1).ToString() + "e.png";
-                    var environmentFilePath = System.IO.Path.Combine(
-                        Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-                        environmentFileName);
+                    
+                    var environmentFilePath = System.IO.Directory.GetCurrentDirectory() + "/Results/perception" +
+                                              j.ToString() + "e.png";
                     environment.Save(environmentFilePath);
-                    //var whatevs = GlobalLayersKnowledge.LaplaceFilters.Any(x => x.VarianceCharge > 50);
                 }
                 //end test area
             }  
