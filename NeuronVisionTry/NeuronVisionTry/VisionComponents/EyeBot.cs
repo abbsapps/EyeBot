@@ -216,11 +216,7 @@ namespace NeuronVisionTry.VisionComponents
                     }
                 }
 
-                string environmentFileName = "visionPictures/neuronStuff/EDGENODETRY" +
-                             GlobalLayersKnowledge.Counter + ".png";
-                var environmentFilePath = System.IO.Path.Combine(
-                    Environment.GetFolderPath(Environment.SpecialFolder.Desktop),
-                    environmentFileName);
+                string environmentFilePath = System.IO.Directory.GetCurrentDirectory() + "/Results/EdgeNode" + GlobalLayersKnowledge.Counter + ".png";
                 environmentCopyOne.Save(environmentFilePath);
 
                 GlobalLayersKnowledge.DirectionPulsePlate.Execute(pulseFilter, highestNode.Direction);

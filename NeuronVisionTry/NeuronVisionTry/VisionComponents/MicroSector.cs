@@ -13,7 +13,6 @@ namespace NeuronVisionTry.VisionComponents
             Receptors = new List<Receptor>();
             LaplaceFilters = new List<LaplaceFilter>();
             DecayRate = .2; //arbi
-            //Threshold = 35; //arbi
             Muscle = GlobalLayersKnowledge.Muscle;
             SectorPlate = GlobalLayersKnowledge.MicroPlate;
         }

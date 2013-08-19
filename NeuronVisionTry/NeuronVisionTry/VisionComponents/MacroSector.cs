@@ -12,8 +12,7 @@ namespace NeuronVisionTry.VisionComponents
             Location = new XYLocation(yPosition, xPosition);
             Receptors = new List<Receptor>();
             LaplaceFilters = new List<LaplaceFilter>();
-            //DecayRate = .2; //arbi
-            //Threshold = 200; //arbi
+            DecayRate = .2; //arbi
             Muscle = GlobalLayersKnowledge.Muscle;
             SectorPlate = GlobalLayersKnowledge.MacroPlate;
         }
@@ -21,8 +20,7 @@ namespace NeuronVisionTry.VisionComponents
         public XYLocation Location;
         public double Charge;
         public List<Receptor> Receptors;
-        //public double DecayRate;
-        //public double Threshold;
+        public double DecayRate;
         public EyeMuscle Muscle;
         public MacroSectorPlate SectorPlate;
         public List<LaplaceFilter> LaplaceFilters;
