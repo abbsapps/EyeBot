@@ -1,0 +1,16 @@
+C:\code\AbNode Projects\NeuronVisionTry\NeuronVisionTry\obj\Debug\NeuronVisionTry.csprojResolveAssemblyReference.cache
+C:\code\AbNode Projects\NeuronVisionTry\NeuronVisionTry\bin\Debug\NeuronVisionTry.exe
+C:\code\AbNode Projects\NeuronVisionTry\NeuronVisionTry\bin\Debug\NeuronVisionTry.pdb
+C:\code\AbNode Projects\NeuronVisionTry\NeuronVisionTry\obj\Debug\NeuronVisionTry.exe
+C:\code\AbNode Projects\NeuronVisionTry\NeuronVisionTry\obj\Debug\NeuronVisionTry.pdb
+C:\code\AbNode Projects\NeuronVisionTry\NeuronVisionTry\bin\Debug\Gif.Components.dll
+C:\code\AbNode Projects\NeuronVisionTry\NeuronVisionTry\bin\Debug\MoreLinq.dll
+C:\code\AbNode Projects\NeuronVisionTry\NeuronVisionTry\bin\Debug\MoreLinq.xml
+C:\code\AbNode Projects\NeuronVisonRefactor\NeuronVisionTry\NeuronVisionTry\obj\Debug\NeuronVisionTry.exe
+C:\code\AbNode Projects\NeuronVisonRefactor\NeuronVisionTry\NeuronVisionTry\obj\Debug\NeuronVisionTry.pdb
+C:\code\AbNode Projects\NeuronVisonRefactor\NeuronVisionTry\NeuronVisionTry\bin\Debug\NeuronVisionTry.exe
+C:\code\AbNode Projects\NeuronVisonRefactor\NeuronVisionTry\NeuronVisionTry\bin\Debug\NeuronVisionTry.pdb
+C:\code\AbNode Projects\NeuronVisonRefactor\NeuronVisionTry\NeuronVisionTry\bin\Debug\Gif.Components.dll
+C:\code\AbNode Projects\NeuronVisonRefactor\NeuronVisionTry\NeuronVisionTry\bin\Debug\MoreLinq.dll
+C:\code\AbNode Projects\NeuronVisonRefactor\NeuronVisionTry\NeuronVisionTry\bin\Debug\MoreLinq.xml
+C:\code\AbNode Projects\NeuronVisonRefactor\NeuronVisionTry\NeuronVisionTry\obj\Debug\NeuronVisionTry.csprojResolveAssemblyReference.cache

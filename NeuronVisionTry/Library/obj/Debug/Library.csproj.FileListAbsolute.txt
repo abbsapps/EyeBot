@@ -1,0 +1,4 @@
+C:\code\AbNode Projects\NeuronVisionTry\Library\bin\Debug\Library.exe
+C:\code\AbNode Projects\NeuronVisionTry\Library\bin\Debug\Library.pdb
+C:\code\AbNode Projects\NeuronVisionTry\Library\obj\Debug\Library.exe
+C:\code\AbNode Projects\NeuronVisionTry\Library\obj\Debug\Library.pdb
