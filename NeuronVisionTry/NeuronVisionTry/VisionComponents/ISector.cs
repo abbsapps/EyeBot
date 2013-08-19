@@ -8,7 +8,6 @@ namespace NeuronVisionTry.VisionComponents
     public interface ISector
     {
         void NewTurn();
-        void AttemptFire();
         void Fire();
         void AbsorbCharge(int inputCharge);
     }

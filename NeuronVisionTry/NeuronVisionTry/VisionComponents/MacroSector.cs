@@ -31,11 +31,6 @@ namespace NeuronVisionTry.VisionComponents
             //{
                 //Charge = Charge - ((DecayRate * Charge) + 1); //arbi //this works in manufactured images, but causes problems in complex ones.  Does the plate decay make up for this? 
             //}
-            AttemptFire();
-        }
-
-        public void AttemptFire()
-        {
             if (Charge > SectorPlate.Threshold)
             {
                 Fire();
